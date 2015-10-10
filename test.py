@@ -1,8 +1,11 @@
 # coding=utf-8
 
 from term import Term
-import renrenche
+from haoche import HaocheSpider
+from renrenche import RenrenCheSpider
 
 if __name__ == '__main__':
-    t = renrenche.get_renrenche(Term())
-    print t
+    spider = RenrenCheSpider()
+    spider.get(Term())
+    spider = HaocheSpider()
+    spider.get(Term())
