@@ -17,9 +17,5 @@ class Car:
         self.type = ''
         self.time = ''
         self.distance = 0
-        self.number = 0
-        self.good = 0
-        self.emergency = 0
-        self.hash = 0
         self.gas = 4
         self.description = ''
