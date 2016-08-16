@@ -1,0 +1,10 @@
+# pyc
+*.pyc
+
+
+# iml
+*.iml
+
+# .idea
+.idea/*
+
